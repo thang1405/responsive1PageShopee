@@ -33,6 +33,7 @@
 
 .header__navbar-item--has-notify:hover .header__notify {
   display: block;
+  z-index: 2;
 }
 
 .header__navbar-item--separate::after {
@@ -565,6 +566,7 @@
   background-color: var(--white-color);
   display: none;
   overflow: hidden;
+  z-index: 2;
 }
 
 .header__search-history-heading {
@@ -605,6 +607,7 @@
   border-left: 1px solid #ccc;
   padding-left: 16px;
   position: relative;
+  z-index: 2;
 }
 
 .header__search-select-label {
